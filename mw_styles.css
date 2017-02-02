@@ -1,4 +1,4 @@
-﻿/*
+/*
    New Perspectives on HTML and CSS
    Tutorial 3
    Case Problem 2
@@ -11,80 +11,112 @@
    Supporting Files: none
 
 */
+
+
 /*body*/
-body{
-  font-family: Tahoma, Geneva, sans-serif;
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
 }
+
+
 /*article header*/
-#articleheader{
-  font-size: 18px;
-  font-weight: normal;
-  letter-spacing: 7px;
-  text-align: center;
+
+#articleheader {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    text-align: center;
 }
+
+
 /*nav styles*/
-nav{
-  background-color: rgb(125, 120, 89);
-  line-height: 3em;
+
+nav {
+    background-color: rgb(125, 120, 89);
+    line-height: 3em;
 }
-nav ul li{
-  list-style-type: none;
+
+nav ul li {
+    list-style-type: none;
 }
-nav ul li a{
-  color: white;
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: none;
+
+nav ul li a {
+    color: white;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
 }
+
+
 /*hover styles*/
-nav li a:hover{
-  color: yellow;
-  color: rgba(255,255,255, 1);
-  text-decoration: none;
+
+nav li a:hover {
+    color: yellow;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
-nav ul li:hover{
-  background-color: rgb(131, 121, 36);
-  list-style-image: url(wheelmarker.png);
+
+nav ul li:hover {
+    background-color: rgb(131, 121, 36);
+    list-style-image: url(wheelmarker.png);
 }
+
+
 /*left section styles*/
-#leftsection >p{
-  font-size: 22px;
+
+#leftsection>p {
+    font-size: 22px;
 }
-#leftsection>p:first-of-type:first-line{
-  text-transform: uppercase;
+
+#leftsection>p:first-of-type:first-line {
+    text-transform: uppercase;
 }
+
+
 /*blockquote styles*/
-blockquote{
-  background-color: rgb(131, 121, 36);
-  color: white;
-  font-size: 16px;
-  font-family: Comic Sans MS, Times, cursive;
+
+blockquote {
+    background-color: rgb(131, 121, 36);
+    color: white;
+    font-size: 16px;
+    font-family: Comic Sans MS, Times, cursive;
 }
-blockquote p:before{
-  content: open-quote;
+
+blockquote p:before {
+    content: open-quote;
 }
-blockquote p:after{
-  content: close-quote;
-  }
-  /*right section styles*/
-#rightsection h1{
-  font-size: 22px;
-  letter-spacing: 3px;
-  font-style: normal;
-  text-align: center;
+
+blockquote p:after {
+    content: close-quote;
 }
-#rightsection h2{
-  font-size: 18px;
-  text-align: right;
-  font-weight: none;
+
+
+/*right section styles*/
+
+#rightsection h1 {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-style: normal;
+    text-align: center;
 }
-#rightsection >p{
-  color: gray;
-  font-size: 14px;
-  text-align: justify;
+
+#rightsection h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: none;
 }
+
+#rightsection>p {
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
 /*footer address styles*/
-footer address{
-  font-size: 16px;
-  font-style: normal;
-  text-align: center;
+
+footer address {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
 }
